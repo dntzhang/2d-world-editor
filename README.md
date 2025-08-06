@@ -42,6 +42,43 @@
 
 
 
+---
+
+### 1. 基础鞋子
+- 普通鞋（Normal Shoes）
+
+### 2. 功能性鞋子
+- 跑鞋 / 加速鞋（Running Shoes / Speed Shoes）：提升移动速度
+- 跳跃鞋（Jump Shoes / Spring Shoes）：提升跳跃高度
+- 防滑鞋（Anti-slip Shoes / Ice Shoes）：防止在冰面或雪地上打滑
+- 沼泽鞋（Swamp Shoes / Mud Shoes）：在沼泽、泥地等地形上不减速
+- 沙地鞋（Sand Shoes）：在沙地上移动不减速
+- 雪地鞋（Snow Shoes）：在雪地上移动不减速
+- 水上鞋（Water Shoes）：可以在水面上行走
+- 隐身鞋（Stealth Shoes）：降低被敌人发现的概率
+- 隔热鞋（Heat-resistant Shoes / Fire Shoes）：可以在火焰或高温地面上行走
+- 隔电鞋（Insulated Shoes）：防止触电
+- 飞行鞋（Flying Shoes / Winged Shoes）：短时间飞行或二段跳
+- 传送鞋（Teleport Shoes）：短距离瞬移
+- 磁力鞋（Magnet Shoes）：可以吸附在金属表面行走
+- 粘性鞋（Sticky Shoes）：可以在墙壁或天花板上行走
+
+### 3. 特殊能力鞋子
+- 障碍穿越鞋（Phasing Shoes）：可以穿越某些障碍物
+- 隐形鞋（Invisible Shoes）：短时间隐形
+- 治愈鞋（Healing Shoes）：缓慢恢复生命值
+- 爆炸鞋（Explosive Shoes）：踩下去会爆炸（用于解谜或攻击）
+
+### 4. 装饰/收集类鞋子
+- 金鞋（Golden Shoes）：装饰性，可能有加分或特殊效果
+- 银鞋（Silver Shoes）
+- 彩虹鞋（Rainbow Shoes）
+
+---
+
+如果你有特定的游戏机制或想要某种风格的鞋子类型，也可以告诉我，我可以帮你定制化设计！
+
+
 三十六计是中国古代兵法谋略的集大成者，内容涵盖了战争、政治、外交、处世等各个方面。全书共分为六套，每套六计，共三十六计。具体如下：
 
 **第一套 胜战计**
