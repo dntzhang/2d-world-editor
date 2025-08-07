@@ -1,5 +1,7 @@
 # 2d-world-editor
 
+使用 Tiled Map Editor 辅助
+
 1. 基础地形类
 草地（Grass）
 沙地（Sand）
