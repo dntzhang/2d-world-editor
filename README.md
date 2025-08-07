@@ -1,8 +1,7 @@
-# 2d-world 开发文档
+# 2d-world 
 
-* cocos
-https://docs.cocos.com/creator/3.8/manual/zh/editor/publish/publish-wechatgame.html
-* 使用 Tiled Map Editor 辅助
+> 愿景：除了内置关卡，用户可以自主创造很多玩法，发布和分享地图
+
 
 ## 计划
 
@@ -11,3 +10,10 @@ https://docs.cocos.com/creator/3.8/manual/zh/editor/publish/publish-wechatgame.h
 * 10月：完成游戏端开发基础关卡上线
 * 11月：完成游戏端关卡编辑能力上线
 * 12月：完成微信支付对接
+
+
+## 开发相关
+
+* cocos
+https://docs.cocos.com/creator/3.8/manual/zh/editor/publish/publish-wechatgame.html
+* 使用 Tiled Map Editor 辅助
