@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "export NODE_ENV=development && vite build -w",
     "dev": "export NODE_ENV=development && vite build -w",
     "build": "vite build",
     "build:ctx": "vite build -w --config vite.ctx.config.ts",
