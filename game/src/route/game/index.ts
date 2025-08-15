@@ -1,12 +1,14 @@
 import * as PIXI from 'pixi.js'
-import {animate} from 'popmotion'
-import {stage, screen, ticker} from '~/core'
+import { animate } from 'popmotion'
+import { stage, screen, ticker } from '~/core'
+
+import { spriteSheet } from './attack'
 
 let root: PIXI.Container
 let fishes: Fish[] = []
 
 const bound = screen.clone().pad(100)
-const {max, random, PI, sin, cos} = Math
+const { max, random, PI, sin, cos } = Math
 
 interface Fish extends PIXI.Sprite {
   speed: number
@@ -22,8 +24,24 @@ function init() {
   bed.zIndex = -1
   bed.scale.set(max(screen.width / bed.width, screen.height / bed.height))
 
+  const baseTexture = PIXI.BaseTexture.from('swordsman_lvl1_attack_full.png');
+
+  const frames = []
+  for (let i = 0; i < 8; i++) {
+    const frame = spriteSheet.frames['ab' + i].frame
+    const rect = new PIXI.Rectangle(frame.x, frame.y, frame.w, frame.h);
+    const subTexture = new PIXI.Texture(baseTexture, rect); // 创建子纹理
+    frames.push(subTexture)
+  }
+
+  const animatedSprite = new PIXI.AnimatedSprite(frames)
+  animatedSprite.animationSpeed = 0.5;
+  animatedSprite.play();
+  root.addChild(animatedSprite);
+
+
   /* 水面 */
-  const overlay = PIXI.TilingSprite.from('overlay.png', {width: screen.width, height: screen.height})
+  const overlay = PIXI.TilingSprite.from('overlay.png', { width: screen.width, height: screen.height })
   overlay.zIndex = 1
 
   /* 潭中鱼可百许头 */
@@ -53,10 +71,10 @@ function init() {
       fish.y -= sin(fish.rotation) * fish.speed
 
       fish.x < bound.left ? fish.x = bound.right :
-      fish.x > bound.right ? fish.x = bound.left : 0
+        fish.x > bound.right ? fish.x = bound.left : 0
 
       fish.y < bound.top ? fish.y = bound.bottom :
-      fish.y > bound.bottom ? fish.y = bound.top : 0
+        fish.y > bound.bottom ? fish.y = bound.top : 0
     }
 
 
