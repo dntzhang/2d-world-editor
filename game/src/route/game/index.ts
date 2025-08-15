@@ -35,6 +35,10 @@ function init() {
   }
 
   const animatedSprite = new PIXI.AnimatedSprite(frames)
+  animatedSprite.x = 350
+  animatedSprite.y = 100
+  animatedSprite.scale.x = 3
+  animatedSprite.scale.y = 3
   animatedSprite.animationSpeed = 0.5;
   animatedSprite.play();
   root.addChild(animatedSprite);
