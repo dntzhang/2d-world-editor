@@ -20,3 +20,7 @@ image.png
 ![图片替代文本](./imgs/kenney2.png)
 
 特殊图片,找不到的,可以通过https://game-icons.net/tags/farm.html 这里的icon让sd生成上面需要的风格类似的
+
+## ps
+
+https://www.photopea.com/
